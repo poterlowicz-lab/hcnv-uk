@@ -1,0 +1,83 @@
+---
+title: "ELIXIR UK milestones made by Khaled Jumah on behalf of Potworloicz team."
+author: "Khaled"
+date: "11/04/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Elixir UK Milestones for Implementation resurch.
+
+This part will illustrate the commitment of the elixir UK milestone and deliverables for Elixir Implementation studies.
+
+We have seen That the Elixir CNV community is interested in creating Turorial on how to wrap CNV bioinformatics tools on the galaxy or containerise them into conda. Also, they are interested in creating a tutorial that includes multiple CNV tools to choose between to perform the analysis and benchmarking the workflows to test the accuracy and the infrastructure required for those tools. 
+
+The three milestones to adress those needs are:
+
+## Create documentation to include how to wrap Copy number variant detecting tools into Galaxy and Bioconda. 
+
+This part will illustrate the commitment of the elixir UK milestone and deliverables for Elixir Implementation studies.
+
+With the availability of multiple tools for Copy number variants detection on Galaxy, still, some of them are not available, so we will create documentation to show the process of wrapping the tools into Bioconda and then to Galaxy by: 
+
+1. Locate the available tutorials on how to wrap a tool into Bioconda
+
+- This link, [how to containerise bioinformatics tool into galaxy](https://bioconda.github.io/contributor/index.html),  has all the information to contribute to Bioconda  
+2. Locate the available tutorials on how to wrap a tool from Bioconda to Galaxy 
+- Use this link, [how to use planemo to wrap containerised bioinformatics tool into galaxy](https://planemo.readthedocs.io/en/latest/writing_standalone.html), to use planemo to wrap a tool into galaxy  
+- If you don’t know how to git planemo use this link, [how to install planemo](https://planemo.readthedocs.io/en/latest/installation.html)
+ - For more information about planemo use this link, [for more information on planemo] (https://planemo.readthedocs.io/en/latest/).
+3. Create documentation on Galaxy using those tutorials to guide the user to wrap his CNV tool into Galaxy. 
+
+## Variant tools for CNV with different outcomes and infrastructure requirements. 
+Choosing a specific tool to carry on the analysis can be considered on the accuracy of CNVs detection, analysis time and the required infrastructure. Even though Galaxy shows the time for the analysis, creating a graph that compares the available CNVs workflows on Galaxy for the same data with each other can give an additional point of view to the user in terms of accuracy, time spent and infrastructure required. 
+  
+This can be done by:  
+
+1. Do a benchmark test on the available workflows in the Galaxy to measure the time and the CNV outcomes  
+2. compare them with a reference CNV test.    
+
+The reference CNV workflow is available in the reference article below.  
+https://www.nist.gov/programs-projects/genome-bottle  
+ 
+The workflow and the tools/code used  
+https://github.com/NCBI-Hackathons/TheHumanPangenome/tree/master/MHC/e2e_notebooks 
+ 
+Part of of the availabel bioinformatics tools for CNV detection using exome sequencing data 
+
+Tool| Reference | Ural | Availabel on Galaxy   
+----| --------- | ---- | -------------------
+Control-FREEC| [1](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR53)| [1](http://bioinfo-out.curie.fr/projects/freec/) | Yes
+CoNIFER | [2](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR54) | [2](http://conifer.sf.net/) | No
+XHMM | [3](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR55) | [3](http://atgu.mgh.harvard.edu/xhmm) | No 
+ExomeCNV | [4](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR49) | [4](http://cran.r-project.org/src/contrib/Archive/ExomeCNV/) | No
+CONTRA | [5](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR77) | [5](http://contra-cnv.sourceforge.net/) | Yes
+CONDEX | [6](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR78) | [6](http://code.google.com/p/condr) | No
+SeqGene | [7](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR79) | [7](http://seqgene.sourceforge.net/) | No
+PropSeq | [8](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR52) | [8](http://bioinformatics.nki.nl/ocs/) | No
+VarScan2 | [9](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR50) | [9](http://genome.wustl.edu/software/varscan) | Yes
+ExoCNVTest | [10](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR56) | [10](http://www1.imperial.ac.uk/medicine/people/l.coin) | No 
+ExomeDepth | [11](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR30) | [11](http://cran.r-project.org/web/packages/ExomeDepth/index.html) | Yes 
+XCAVATOR | NA | https://sourceforge.net/projects/xcavator/ | NO 
+CNVkit |  [12](https://cnvkit.readthedocs.io/en/stable/) | [12](https://github.com/imgag/ClinCNV) | No 
+
+
+## Same preprocess different CNV tool  (WES)
+Usually, the CNVs workflows share the same process to prepare the data from the quality control to the mapping step. The changes occur in the CNVs detection step, so we will work to create a tutorial that allows the user to understand the process of the CNVs detection method and give him guidance on how to choose between the available CNVs tools to proceed with his analysis. 
+
+The process to create this tutorial is by: 
+
+1. View the input requirements for some of the available CNVs tools. 
+
+2. Create a shared preparing workflow for analyzing data. 
+
+3. Make the tutorial that requires the longest preprocessing and indicate to be used as the main tutorial and locate the parts where the data are ready to continue with different CNV tools. 
+
+4. Provide links for additional reading to guide the user on how he uses his tool if it is not included in the workflow 
+
+5. Locate most of the CNV detecting tools available on/outside galaxy   
+
+
