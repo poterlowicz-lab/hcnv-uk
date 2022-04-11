@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## ELIXIR UK milestones made by Khaled Jumah on behalf of Potworloicz team.
 
 You can use the [editor on GitHub](https://github.com/khaled196/khaled_elixir.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
