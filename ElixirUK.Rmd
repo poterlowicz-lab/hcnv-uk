@@ -61,8 +61,8 @@ PropSeq | [8](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-
 VarScan2 | [9](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR50) | [9](http://genome.wustl.edu/software/varscan) | Yes
 ExoCNVTest | [10](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR56) | [10](http://www1.imperial.ac.uk/medicine/people/l.coin) | No 
 ExomeDepth | [11](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR30) | [11](http://cran.r-project.org/web/packages/ExomeDepth/index.html) | Yes 
-XCAVATOR | NA | https://sourceforge.net/projects/xcavator/ | NO 
-CNVkit |  [12](https://cnvkit.readthedocs.io/en/stable/) | [12](https://github.com/imgag/ClinCNV) | No 
+XCAVATOR | NA | [12](https://sourceforge.net/projects/xcavator/) | NO 
+CNVkit |  [13](https://cnvkit.readthedocs.io/en/stable/) | [13](https://github.com/imgag/ClinCNV) | No 
 
 
 ## Same preprocess different CNV tool  (WES)
