@@ -13,13 +13,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This part will illustrate the commitment of the elixir UK milestone and deliverables for Elixir Implementation studies.
 
-We have seen That the Elixir CNV community is interested in creating Turorial on how to wrap CNV bioinformatics tools on the galaxy or containerise them into conda. Also, they are interested in creating a tutorial that includes multiple CNV tools to choose between to perform the analysis and benchmarking the workflows to test the accuracy and the infrastructure required for those tools. 
+We have seen That the Elixir CNV community is interested in wrapping CNV bioinformatics tools on the galaxy and containerise them into conda. Also, they are interested in comparing between multiple CNVs tools in terms of the accuracy and the infrastructure required to run those tools. 
 
-The three milestones to adress those needs are:
+So we came up with three approaches to address these requirements:
 
 ## Create documentation to include how to wrap Copy number variant detecting tools into Galaxy and Bioconda. 
-
-This part will illustrate the commitment of the elixir UK milestone and deliverables for Elixir Implementation studies.
 
 With the availability of multiple tools for Copy number variants detection on Galaxy, still, some of them are not available, so we will create documentation to show the process of wrapping the tools into Bioconda and then to Galaxy by: 
 
@@ -48,7 +46,7 @@ https://github.com/NCBI-Hackathons/TheHumanPangenome/tree/master/MHC/e2e_noteboo
  
 Part of of the availabel bioinformatics tools for CNV detection using exome sequencing data 
 
-Tool| Reference | Ural | Availabel on Galaxy   
+Tool| Reference | Ural | Availabel on tool shed    
 ----| --------- | ---- | -------------------
 Control-FREEC| [1](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR53)| [1](http://bioinfo-out.curie.fr/projects/freec/) | Yes
 CoNIFER | [2](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1#ref-CR54) | [2](http://conifer.sf.net/) | No
