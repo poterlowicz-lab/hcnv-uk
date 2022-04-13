@@ -1,5 +1,5 @@
 ---
-title: "ELIXIR UK milestones made by Khaled Jumah on behalf of Potworloicz team."
+title: "ELIXIR UK milestones made by Khaled Jumah on behalf of Poterlowicz team."
 author: "Khaled"
 date: "11/04/2022"
 output: html_document
