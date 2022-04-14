@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: "ELIXIR UK milestones made by Khaled Jumah on behalf of Potworloicz team."
 author: "Khaled, Krzysztof" 
-=======
-title: "ELIXIR UK milestones made by Khaled Jumah on behalf of Poterlowicz team."
-author: "Khaled"
->>>>>>> 19528704a5d372320bc7089519affd5f9abd7fc2
 date: "11/04/2022"
 output: html_document
 ---
