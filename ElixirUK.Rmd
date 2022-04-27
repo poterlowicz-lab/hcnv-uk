@@ -22,7 +22,7 @@ With the availability of only a few tools for CNV detection on Galaxy, still, al
 2. Locate the available tutorials on how to wrap a tool from Bioconda to Galaxy 
 - Use this link, [how to use planemo to wrap containerised bioinformatics tool into galaxy](https://planemo.readthedocs.io/en/latest/writing_standalone.html), to use Planemo to wrap a tool into galaxy  
 - If you don’t know how to git Planemo use this link, [how to install Planemo](https://planemo.readthedocs.io/en/latest/installation.html)
- - For more information about Planemo use this link, [for more information on Planemo] (https://planemo.readthedocs.io/en/latest/).
+ - For more information about Planemo use this link, [for more information on Planemo](https://planemo.readthedocs.io/en/latest/).
 3. Create documentation on Galaxy using those tutorials to guide the user to wrap his CNV tool into Galaxy. 
 
 After the discussion, We have agreed to wrap [CNVkit](https://cnvkit.readthedocs.io/en/stable/) as an example.  
