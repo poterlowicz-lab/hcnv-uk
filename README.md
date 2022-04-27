@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Only a few CNV tools are available in Galaxy. So we are going to create documentation to show the process of wrapping the tools into Bioconda and then to Galaxy by: 
 
-1. Locate the available tutorials on how to wrap a tool into Bioconda
+1. Locate the available tutorials for wrapping bioinformatics tools into Bioconda
 
 - This link, [how to containerise a bioinformatics tool into Bioconda](https://bioconda.github.io/contributor/index.html),  has all the information to contribute to Bioconda  
 2. Locate the available tutorials on how to wrap a tool from Bioconda to Galaxy 
@@ -29,7 +29,7 @@ After the discussion, We have agreed to wrap [CNVkit](https://cnvkit.readthedocs
 
 
 ## 2. The CNV tools are different from each other in the outcomes and infrastructure requirements. 
-Choosing a specific tool to carry on the analysis can be considered on the accuracy of CNVs detection, analysis time and the required infrastructure. Even though Galaxy shows the time for the analysis, creating a graph that compares the available CNVs workflows on Galaxy for the same data with each other can give an additional point of view to the user in terms of accuracy, time spent and infrastructure required. 
+Choosing a specific tool to carry on the analysis is based on CNVs detection accuracy, analysis time and required infrastructure. Even though Galaxy shows the time for the analysis, creating a graph that compares the available CNVs workflows on Galaxy for the same data with each other can give an additional point of view to the user in terms of accuracy, time spent and infrastructure required. 
   
 This can be done by:  
 
@@ -62,7 +62,8 @@ CNVkit |  [13](https://cnvkit.readthedocs.io/en/stable/) | [13](https://github.c
 
 
 ## Same preprocess different CNV tool (WES) tutorial. 
-Usually, the CNVs workflows share the same process to prepare the data from the quality control to the mapping step. The changes occur in the CNVs detection step, so we will work to create a tutorial that allows the user to understand the process of the CNVs detection method and give him guidance on how to choose between the available CNVs tools to proceed with his analysis. 
+Usually, The preprocessing steps for CNVs data (from the quality control to the mapping step) are the same for all CNVs tools. The changes occur in the CNVs detection step. 
+We will work to create a tutorial that allows the user to understand the CNVs detection process and give guidance on how to choose between the available CNVs tools. 
 
 The process to create this tutorial is by: 
 
@@ -77,6 +78,5 @@ The process to create this tutorial is by:
 5. Locate most of the CNV detecting tools available in/outside galaxy 
 
 We have almost done creating [tutorial](https://github.com/kpbioteam/training-material/blob/project34/topics/variant-analysis/tutorials/somatic-variant-discovery/tutorial.md) that uses Contol-freec to detect CNVs which also can be the backbone tutorial for this cause.  
-
 
 
