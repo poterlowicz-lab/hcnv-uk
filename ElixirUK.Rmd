@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## 1.  Create documentation to guide the resurchers to wrap Copy number variant (CNV) detecting tools into Galaxy and Bioconda. 
 
-With the availability of only a few tools for CNV detection on Galaxy, still, alot of them are not available, so we will create documentation to show the process of wrapping the tools into Bioconda and then to Galaxy by: 
+Only a few CNV tools are available in Galaxy. So we are going to create documentation to show the process of wrapping the tools into Bioconda and then to Galaxy by: 
 
 1. Locate the available tutorials on how to wrap a tool into Bioconda
 
