@@ -33,7 +33,7 @@ Choosing a specific tool to carry on the analysis can be considered on the accur
   
 This can be done by:  
 
-1. Do a benchmark test on the available workflows in the Galaxy to measure the time and the CNV outcomes  
+1. Do a benchmark test for the available workflows in Galaxy (until now there are no workflows for CNV) to measure the run time and detected CNV  
 2. compare them with a reference CNV test.    
 
 The reference CNV workflow is available in the reference article below.  
