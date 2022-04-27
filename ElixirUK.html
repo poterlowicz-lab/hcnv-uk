@@ -376,13 +376,12 @@ on behalf of Potworloicz team.</h1>
 <div id="create-documentation-to-guide-the-resurchers-to-wrap-copy-number-variant-cnv-detecting-tools-into-galaxy-and-bioconda." class="section level2">
 <h2>1. Create documentation to guide the resurchers to wrap Copy number
 variant (CNV) detecting tools into Galaxy and Bioconda.</h2>
-<p>With the availability of only a few tools for CNV detection on
-Galaxy, still, alot of them are not available, so we will create
-documentation to show the process of wrapping the tools into Bioconda
-and then to Galaxy by:</p>
+<p>Only a few CNV tools are available in Galaxy. So we are going to
+create documentation to show the process of wrapping the tools into
+Bioconda and then to Galaxy by:</p>
 <ol style="list-style-type: decimal">
-<li>Locate the available tutorials on how to wrap a tool into
-Bioconda</li>
+<li>Locate the available tutorials for wrapping bioinformatics tools
+into Bioconda</li>
 </ol>
 <ul>
 <li>This link, <a href="https://bioconda.github.io/contributor/index.html">how to
@@ -401,8 +400,8 @@ galaxy</a>, to use Planemo to wrap a tool into galaxy<br />
 </li>
 <li>If you don’t know how to git Planemo use this link, <a href="https://planemo.readthedocs.io/en/latest/installation.html">how to
 install Planemo</a></li>
-<li>For more information about Planemo use this link, [for more
-information on Planemo] (<a href="https://planemo.readthedocs.io/en/latest/" class="uri">https://planemo.readthedocs.io/en/latest/</a>).</li>
+<li>For more information about Planemo use this link, <a href="https://planemo.readthedocs.io/en/latest/">for more information on
+Planemo</a>.</li>
 </ul>
 <ol start="3" style="list-style-type: decimal">
 <li>Create documentation on Galaxy using those tutorials to guide the
@@ -414,19 +413,17 @@ example.</p>
 <div id="the-cnv-tools-are-different-from-each-other-in-the-outcomes-and-infrastructure-requirements." class="section level2">
 <h2>2. The CNV tools are different from each other in the outcomes and
 infrastructure requirements.</h2>
-<p>Choosing a specific tool to carry on the analysis can be considered
-on the accuracy of CNVs detection, analysis time and the required
-infrastructure. Even though Galaxy shows the time for the analysis,
-creating a graph that compares the available CNVs workflows on Galaxy
-for the same data with each other can give an additional point of view
-to the user in terms of accuracy, time spent and infrastructure
-required.</p>
+<p>Choosing a specific tool to carry on the analysis is based on CNVs
+detection accuracy, analysis time and required infrastructure. Even
+though Galaxy shows the time for the analysis, creating a graph that
+compares the available CNVs workflows on Galaxy for the same data with
+each other can give an additional point of view to the user in terms of
+accuracy, time spent and infrastructure required.</p>
 <p>This can be done by:</p>
 <ol style="list-style-type: decimal">
-<li>Do a benchmark test for the available workflows in Galaxy (until now
-there are no workflows for CNV) to measure the run time and detected
-CNV<br />
-</li>
+<li>Do a benchmark test for the available workflows in Galaxy (We are
+orking on expanding this part) to measure the run time and detected
+CNV</li>
 <li>compare them with a reference CNV test.</li>
 </ol>
 <p>The reference CNV workflow is available in the reference article
@@ -542,12 +539,11 @@ exome sequencing data</p>
 </div>
 <div id="same-preprocess-different-cnv-tool-wes-tutorial." class="section level2">
 <h2>Same preprocess different CNV tool (WES) tutorial.</h2>
-<p>Usually, the CNVs workflows share the same process to prepare the
-data from the quality control to the mapping step. The changes occur in
-the CNVs detection step, so we will work to create a tutorial that
-allows the user to understand the process of the CNVs detection method
-and give him guidance on how to choose between the available CNVs tools
-to proceed with his analysis.</p>
+<p>Usually, The preprocessing steps for CNVs data (from the quality
+control to the mapping step) are the same for all CNVs tools. The
+changes occur in the CNVs detection step. We will work to create a
+tutorial that allows the user to understand the CNVs detection process
+and give guidance on how to choose between the available CNVs tools.</p>
 <p>The process to create this tutorial is by:</p>
 <ol style="list-style-type: decimal">
 <li><p>View the input requirements for some of the available CNVs
@@ -562,6 +558,9 @@ knowledge on how to use a specific CNV tool</p></li>
 <li><p>Locate most of the CNV detecting tools available in/outside
 galaxy</p></li>
 </ol>
+<p>We have almost done creating <a href="https://github.com/kpbioteam/training-material/blob/project34/topics/variant-analysis/tutorials/somatic-variant-discovery/tutorial.md">tutorial</a>
+that uses Contol-freec to detect CNVs which also can be the backbone
+tutorial for this cause.</p>
 </div>
 </div>
 
