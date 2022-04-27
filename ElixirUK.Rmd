@@ -14,16 +14,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## 1.  Create documentation to guide the resurchers to wrap Copy number variant (CNV) detecting tools into Galaxy and Bioconda. 
 
-With the availability of multiple tools for CNV detection on Galaxy, still, some of them are not available, so we will create documentation to show the process of wrapping the tools into Bioconda and then to Galaxy by: 
+With the availability of only a few tools for CNV detection on Galaxy, still, alot of them are not available, so we will create documentation to show the process of wrapping the tools into Bioconda and then to Galaxy by: 
 
 1. Locate the available tutorials on how to wrap a tool into Bioconda
 
-- This link, [how to containerise bioinformatics tool into galaxy](https://bioconda.github.io/contributor/index.html),  has all the information to contribute to Bioconda  
+- This link, [how to containerise a bioinformatics tool into Bioconda](https://bioconda.github.io/contributor/index.html),  has all the information to contribute to Bioconda  
 2. Locate the available tutorials on how to wrap a tool from Bioconda to Galaxy 
-- Use this link, [how to use planemo to wrap containerised bioinformatics tool into galaxy](https://planemo.readthedocs.io/en/latest/writing_standalone.html), to use planemo to wrap a tool into galaxy  
-- If you don’t know how to git planemo use this link, [how to install planemo](https://planemo.readthedocs.io/en/latest/installation.html)
- - For more information about planemo use this link, [for more information on planemo] (https://planemo.readthedocs.io/en/latest/).
+- Use this link, [how to use planemo to wrap containerised bioinformatics tool into galaxy](https://planemo.readthedocs.io/en/latest/writing_standalone.html), to use Planemo to wrap a tool into galaxy  
+- If you don’t know how to git Planemo use this link, [how to install Planemo](https://planemo.readthedocs.io/en/latest/installation.html)
+ - For more information about Planemo use this link, [for more information on Planemo] (https://planemo.readthedocs.io/en/latest/).
 3. Create documentation on Galaxy using those tutorials to guide the user to wrap his CNV tool into Galaxy. 
+
+After the discussion, We have agreed to wrap [CNVkit](https://cnvkit.readthedocs.io/en/stable/) as an example.  
+
 
 ## 2. The CNV tools are different from each other in the outcomes and infrastructure requirements. 
 Choosing a specific tool to carry on the analysis can be considered on the accuracy of CNVs detection, analysis time and the required infrastructure. Even though Galaxy shows the time for the analysis, creating a graph that compares the available CNVs workflows on Galaxy for the same data with each other can give an additional point of view to the user in terms of accuracy, time spent and infrastructure required. 
