@@ -65,12 +65,12 @@ The process to create this tutorial is by:
 
 1. View the input requirements for some of the available CNVs tools. 
 
-2. Create a shared preparing workflow for analyzing data. 
+2. Create a shared prepossessing workflow for different tools data. 
 
-3. Make the tutorial that requires the longest preprocessing and indicate to be used as the main tutorial and locate the parts where the data are ready to continue with different CNV tools. 
+3. Make the tool that requires the longest prepossessing as the main tool in the tutorial and locate the sections where we can introduce the different CBV tools for the data. 
 
-4. Provide links for additional reading to guide the user on how he uses his tool if it is not included in the workflow 
+4. add links for additional reading to provide the user with further knowledge on how to use a specific CNV tool 
 
-5. Locate most of the CNV detecting tools available on/outside galaxy   
+5. Locate most of the CNV detecting tools available in/outside galaxy   
 
 
