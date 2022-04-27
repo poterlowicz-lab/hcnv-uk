@@ -33,7 +33,7 @@ Choosing a specific tool to carry on the analysis can be considered on the accur
   
 This can be done by:  
 
-1. Do a benchmark test for the available workflows in Galaxy (until now there are no workflows for CNV) to measure the run time and detected CNV  
+1. Do a benchmark test for the available workflows in Galaxy (We are orking on expanding this part) to measure the run time and detected CNV
 2. compare them with a reference CNV test.    
 
 The reference CNV workflow is available in the reference article below.  
@@ -74,6 +74,8 @@ The process to create this tutorial is by:
 
 4. add links for additional reading to provide the user with further knowledge on how to use a specific CNV tool 
 
-5. Locate most of the CNV detecting tools available in/outside galaxy   
+5. Locate most of the CNV detecting tools available in/outside galaxy 
+
+We have almost done creating [tutorial](https://github.com/kpbioteam/training-material/blob/project34/topics/variant-analysis/tutorials/somatic-variant-discovery/tutorial.md) that uses Contol-freec to detect CNVs which also can be the backbone tutorial for this cause.  
 
 
