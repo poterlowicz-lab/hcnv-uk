@@ -51,14 +51,11 @@ Our plan includes :
 
 1. Do a benchmark test for the CNV detection workflow in Galaxy to measure the run time and detected CNV
 
-2. Compare them with a reference CNV test.    
+2. Compare them with a (https://www.nist.gov/programs-projects/genome-bottle).    
 
-The reference CNV workflow is available in the reference article below.  
-https://www.nist.gov/programs-projects/genome-bottle  
+  
  
-The workflow and the tools/code used  
-https://github.com/NCBI-Hackathons/TheHumanPangenome/tree/master/MHC/e2e_notebooks 
- 
+[The workflow and the tools/code used](https://github.com/NCBI-Hackathons/TheHumanPangenome/tree/master/MHC/e2e_notebooks) 
 
 # WP4 - Training and dissemination 
 Usually, The preprocessing steps for CNVs data (from the quality control to the mapping step) are the similar for all CNVs detecting workflows. The changes occur in the CNVs detection step. 
