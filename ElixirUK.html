@@ -9,11 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Khaled, Krzysztof" />
+<meta name="author" content="Khaled Jumah, Krzysztof Poterlowicz" />
 
 <meta name="date" content="2022-11-04" />
 
-<title>ELIXIR UK milestones made by Khaled Jumah on behalf of Potworloicz team.</title>
+<title>hCNVbundles project- ELIXIR UK</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -363,76 +363,24 @@ pre code {
 
 
 
-<h1 class="title toc-ignore">ELIXIR UK milestones made by Khaled Jumah
-on behalf of Potworloicz team.</h1>
-<h4 class="author">Khaled, Krzysztof</h4>
+<h1 class="title toc-ignore">hCNVbundles project- ELIXIR UK</h1>
+<h4 class="author">Khaled Jumah, Krzysztof Poterlowicz</h4>
 <h4 class="date">11/04/2022</h4>
 
 </div>
 
 
-<div id="elixir-uk-milestones-for-implementation-srudes." class="section level1">
-<h1>Elixir UK Milestones for Implementation srudes.</h1>
-<div id="create-documentation-to-guide-the-resurchers-to-wrap-copy-number-variant-cnv-detecting-tools-into-galaxy-and-bioconda." class="section level2">
-<h2>1. Create documentation to guide the resurchers to wrap Copy number
-variant (CNV) detecting tools into Galaxy and Bioconda.</h2>
-<p>Only a few CNV tools are available in Galaxy. So we are going to
-create documentation to show the process of wrapping the tools into
-Bioconda and then to Galaxy by:</p>
-<ol style="list-style-type: decimal">
-<li>Locate the available tutorials for wrapping bioinformatics tools
-into Bioconda</li>
-</ol>
-<ul>
-<li>This link, <a href="https://bioconda.github.io/contributor/index.html">how to
-containerise a bioinformatics tool into Bioconda</a>, has all the
-information to contribute to Bioconda<br />
-</li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li>Locate the available tutorials on how to wrap a tool from Bioconda
-to Galaxy</li>
-</ol>
-<ul>
-<li>Use this link, <a href="https://planemo.readthedocs.io/en/latest/writing_standalone.html">how
-to use planemo to wrap containerised bioinformatics tool into
-galaxy</a>, to use Planemo to wrap a tool into galaxy<br />
-</li>
-<li>If you don’t know how to git Planemo use this link, <a href="https://planemo.readthedocs.io/en/latest/installation.html">how to
-install Planemo</a></li>
-<li>For more information about Planemo use this link, <a href="https://planemo.readthedocs.io/en/latest/">for more information on
-Planemo</a>.</li>
-</ul>
-<ol start="3" style="list-style-type: decimal">
-<li>Create documentation on Galaxy using those tutorials to guide the
-user to wrap his CNV tool into Galaxy.</li>
-</ol>
-<p>After the discussion, We have agreed to wrap <a href="https://cnvkit.readthedocs.io/en/stable/">CNVkit</a> as an
-example.</p>
-</div>
-<div id="the-cnv-tools-are-different-from-each-other-in-the-outcomes-and-infrastructure-requirements." class="section level2">
-<h2>2. The CNV tools are different from each other in the outcomes and
-infrastructure requirements.</h2>
-<p>Choosing a specific tool to carry on the analysis is based on CNVs
-detection accuracy, analysis time and required infrastructure. Even
-though Galaxy shows the time for the analysis, creating a graph that
-compares the available CNVs workflows on Galaxy for the same data with
-each other can give an additional point of view to the user in terms of
-accuracy, time spent and infrastructure required.</p>
-<p>This can be done by:</p>
-<ol style="list-style-type: decimal">
-<li>Do a benchmark test for the available workflows in Galaxy (We are
-orking on expanding this part) to measure the run time and detected
-CNV</li>
-<li>compare them with a reference CNV test.</li>
-</ol>
-<p>The reference CNV workflow is available in the reference article
-below.<br />
-<a href="https://www.nist.gov/programs-projects/genome-bottle" class="uri">https://www.nist.gov/programs-projects/genome-bottle</a></p>
-<p>The workflow and the tools/code used<br />
-<a href="https://github.com/NCBI-Hackathons/TheHumanPangenome/tree/master/MHC/e2e_notebooks" class="uri">https://github.com/NCBI-Hackathons/TheHumanPangenome/tree/master/MHC/e2e_notebooks</a></p>
-<p>Part of of the availabel bioinformatics tools for CNV detection using
-exome sequencing data</p>
+<div id="wp3---exploitation-of-the-datasets-by-the-galaxy-community." class="section level1">
+<h1>WP3 - Exploitation of the datasets by the Galaxy Community.</h1>
+<div id="intergrating-a-copy-number-variant-cnv-detecting-tools-into-galaxy." class="section level2">
+<h2>1. Intergrating a Copy number variant (CNV) detecting tools into
+Galaxy.</h2>
+<p>Although a number of the CNV detectiong tools have been developed
+over the recent years <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1">Zhao
+et al. (2013)</a> only a few of them were intergated into the Galaxy and
+only couple of them are suported and functional</p>
+<p>Whole exome sequning CNV detection tools according to <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1">Zhao
+et al. (2013)</a></p>
 <table>
 <colgroup>
 <col width="11%" />
@@ -536,14 +484,42 @@ exome sequencing data</p>
 </tr>
 </tbody>
 </table>
+<p>Galaxy training network community [web reference] provide a
+copmprehensive <a href="https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html">tutotial</a>
+to instruct the reader in the full process of integrating a tool into
+Galaxy thorugh the process of<br />
+- the creation of a bioconda recipe for a new tool - writing a Galaxy
+tool wrapper - finally the testing and deployment of this tool into both
+a local and public Galaxy environment.</p>
+<p>This document present a case study of intergrating <a href="https://cnvkit.readthedocs.io/en/stable/">CNVkit</a> into the
+Galaxy using the above tutorial</p>
 </div>
-<div id="same-preprocess-different-cnv-tool-wes-tutorial." class="section level2">
-<h2>Same preprocess different CNV tool (WES) tutorial.</h2>
+<div id="benchmarking-hcnv-detection-tools." class="section level2">
+<h2>2. Benchmarking hCNV detection tools.</h2>
+<p>Choosing a specific tool to carry on the analysis require information
+about CNVs detection accuracy, execution time and required
+infrastructure.</p>
+<p>Our plan includes :</p>
+<ol style="list-style-type: decimal">
+<li><p>Do a benchmark test for the CNV detection workflow in Galaxy to
+measure the run time and detected CNV</p></li>
+<li><p>Compare them with a reference CNV test.</p></li>
+</ol>
+<p>The reference CNV workflow is available in the reference article
+below.<br />
+<a href="https://www.nist.gov/programs-projects/genome-bottle" class="uri">https://www.nist.gov/programs-projects/genome-bottle</a></p>
+<p>The workflow and the tools/code used<br />
+<a href="https://github.com/NCBI-Hackathons/TheHumanPangenome/tree/master/MHC/e2e_notebooks" class="uri">https://github.com/NCBI-Hackathons/TheHumanPangenome/tree/master/MHC/e2e_notebooks</a></p>
+</div>
+</div>
+<div id="wp4---training-and-dissemination" class="section level1">
+<h1>WP4 - Training and dissemination</h1>
 <p>Usually, The preprocessing steps for CNVs data (from the quality
-control to the mapping step) are the same for all CNVs tools. The
-changes occur in the CNVs detection step. We will work to create a
-tutorial that allows the user to understand the CNVs detection process
-and give guidance on how to choose between the available CNVs tools.</p>
+control to the mapping step) are the similar for all CNVs detecting
+workflows. The changes occur in the CNVs detection step.</p>
+<p>Our plan is to create a tutorial that allows the user to understand
+the CNVs detection process and give guidance on how to choose between
+the available CNVs tools.</p>
 <p>The process to create this tutorial is by:</p>
 <ol style="list-style-type: decimal">
 <li><p>View the input requirements for some of the available CNVs
@@ -558,10 +534,9 @@ knowledge on how to use a specific CNV tool</p></li>
 <li><p>Locate most of the CNV detecting tools available in/outside
 galaxy</p></li>
 </ol>
-<p>We have almost done creating <a href="https://github.com/kpbioteam/training-material/blob/project34/topics/variant-analysis/tutorials/somatic-variant-discovery/tutorial.md">tutorial</a>
+<p>Our current progress can be found here <a href="https://github.com/kpbioteam/training-material/blob/project34/topics/variant-analysis/tutorials/somatic-variant-discovery/tutorial.md">tutorial</a>
 that uses Contol-freec to detect CNVs which also can be the backbone
 tutorial for this cause.</p>
-</div>
 </div>
 
 
