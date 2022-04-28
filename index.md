@@ -51,7 +51,7 @@ Our plan includes :
 
 1. Do a benchmark test for the CNV detection workflow in Galaxy to measure the run time and detected CNV
 
-2. Compare them with a (https://www.nist.gov/programs-projects/genome-bottle).    
+2. Compare them with [genome-bottle](https://www.nist.gov/programs-projects/genome-bottle).    
 
   
  
