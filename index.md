@@ -37,7 +37,7 @@ CNVkit |  [13](https://cnvkit.readthedocs.io/en/stable/) | [13](https://github.c
  
  
  
-Galaxy training network community [web reference] provide a copmprehensive [tutotial](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html)  to instruct the reader in the full process of integrating a tool into Galaxy thorugh the process of  
+[Galaxy training network community](https://training.galaxyproject.org/) provide a copmprehensive [tutotial](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html)  to instruct the reader in the full process of integrating a tool into Galaxy thorugh the process of  
  - the creation of a bioconda recipe for a new tool
  - writing a Galaxy tool wrapper
  - finally the testing and deployment of this tool into both a local and public Galaxy environment. 
