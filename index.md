@@ -5,15 +5,19 @@ date: "11/04/2022"
 output: html_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 # WP3 - Exploitation of the datasets by the Galaxy Community. 
 
 
 ## 1.  Intergrating a Copy number variant (CNV) detecting tools into Galaxy. 
 
-Although  a number of the CNV detectiong tools have been developed over the recent years (ref Khaled) only a few of them were intergated into the Galaxy
-and only couple of them are suported and functional (Khaled put tools table here).
+Although  a number of the CNV detectiong tools have been developed over the recent years [Zhao et al. (2013)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1) only a few of them were intergated into the Galaxy
+and only couple of them are suported and functional
  
-Whole exome sequning CNV detection tools according to [reference paper] 
+Whole exome sequning CNV detection tools according to [Zhao et al. (2013)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-S11-S1)
 
 Tool| Reference | Ural | Availabel on tool shed    
 ----| --------- | ---- | -------------------
@@ -33,7 +37,7 @@ CNVkit |  [13](https://cnvkit.readthedocs.io/en/stable/) | [13](https://github.c
  
  
  
-Galaxy training network community [web reference] provide a copmprehensive tutotial [ web link to the tutorial / https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html]  to instruct the reader in the full process of integrating a tool into Galaxy thorugh the process of  
+Galaxy training network community [web reference] provide a copmprehensive [tutotial](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-from-scratch/tutorial.html)  to instruct the reader in the full process of integrating a tool into Galaxy thorugh the process of  
  - the creation of a bioconda recipe for a new tool
  - writing a Galaxy tool wrapper
  - finally the testing and deployment of this tool into both a local and public Galaxy environment. 
@@ -74,5 +78,4 @@ The process to create this tutorial is by:
 5. Locate most of the CNV detecting tools available in/outside galaxy 
 
 Our current progress can be found here [tutorial](https://github.com/kpbioteam/training-material/blob/project34/topics/variant-analysis/tutorials/somatic-variant-discovery/tutorial.md) that uses Contol-freec to detect CNVs which also can be the backbone tutorial for this cause.  
-
 
