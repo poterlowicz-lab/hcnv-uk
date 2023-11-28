@@ -5,9 +5,7 @@ date: "11/04/2022"
 output: html_document
 ---
 
-
 # WP3 - Exploitation of the datasets by the Galaxy Community. 
-
 
 ## 1.  Intergrating a Copy number variant (CNV) detecting tools into Galaxy. 
 
